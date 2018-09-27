@@ -1,7 +1,8 @@
 import * as React from 'react';
 import HeaderContent from './HeaderContent/HeaderContent';
-import './App.css';
+import Content from './Content/Content';
 
+import './App.css';
 
 class App extends React.Component {
   public render() {
@@ -12,7 +13,9 @@ class App extends React.Component {
             <HeaderContent />
           </div>
           <div className="item sidebar">sidebar</div>
-          <div className="item content-1">Content-1</div>
+          <div className="item content-1">
+          <Content/>
+          </div>
           <div className="item footer">footer</div>
         </div>
 
